@@ -151,7 +151,6 @@ header {
 .services {
     background-color: #f8edeb;
     margin: 0 auto; 
-    border: 1px solid #222222;
     margin-bottom: 100px;
 }
 
@@ -512,9 +511,6 @@ footer img {
 @media screen and (max-width: 600px) {
 
     body {
-        max-width: 100%;
-    }
-
     .hero-image h1 {
         font-size: 50px;
     }
