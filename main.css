@@ -5,21 +5,18 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;
 
 }
 
 html {
     height: 100%;
     width: 100%;
-    overflow-x: hidden;
 }
 
 
 body {
     font-family: 'Montserrat', sans-serif;
     color: #222222;
-    overflow-x: hidden;
 }
 
 h1, h2, h3 {
@@ -153,7 +150,6 @@ header {
 
 .services {
     background-color: #f8edeb;
-    border-collapse: collapse;
     margin: 0 auto; 
     border: 1px solid #222222;
     margin-bottom: 100px;
@@ -514,6 +510,10 @@ footer img {
 
 
 @media screen and (max-width: 600px) {
+
+    body {
+        max-width: 100%;
+    }
 
     .hero-image h1 {
         font-size: 50px;
