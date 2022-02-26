@@ -16,10 +16,15 @@ html {
 
 
 body {
+    background-image: 
+    linear-gradient( rgba(246,255,248,.8), rgba(246,255,248,.9)),
+    url(images/websitebg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     font-family: 'Montserrat', sans-serif;
     color: #222222;
     margin: 0px;
-    background-color: #f6fff8;
 }
 
 h1 {
@@ -31,7 +36,7 @@ h1 {
 
 h2 {
     font-family: 'Oooh Baby', cursive;
-    font-size: 35px;
+    font-size: 36px;
     font-weight: 200;
 }
 
@@ -164,7 +169,7 @@ nav li a:hover {
     background-color: white;
     color: #DA7E7E;
     left: 100%;
-    top: 7%;
+    top: 6%;
     width: 100%;
     position: fixed;
     transition: all 0.5s;
@@ -249,8 +254,8 @@ nav li a:hover {
 
 .top {
     background-color: rgba(237,237,233,.4);
+    margin-right: 30px;
     margin-left: 30px;
-    margin-right: 0px;
     margin-top: 100px;
 }
 
@@ -258,27 +263,27 @@ nav li a:hover {
     border-radius: .5%;
     display: block;
     margin: 0 auto;
-    margin-top: 100px;
-    margin-right: 30px;
+    padding-bottom: 0px;
 }
 
 .intro-container {
-    background: 
-    linear-gradient( rgba(252, 252, 252, .93), rgba(252, 252, 252, .9)),
-    url(images/bg3.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 0px; 
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 75px;
-    padding-bottom: 0px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    grid-gap: 1.5rem;
+        background: 
+        linear-gradient( rgba(252, 252, 252, .9), rgba(252, 252, 252, .9)),
+        url(images/bg3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 0px; 
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 100px;
+        padding-top: 100px;
+        padding-bottom: 0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 1.5rem
 }
 
 .item {
@@ -309,10 +314,10 @@ nav li a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
     margin-top: 0px;
-    padding-top: 0px;
+    margin-bottom: 100px;
 }
 
 .services {
@@ -324,8 +329,9 @@ nav li a:hover {
 
 
 #services h2 {
-    margin-left: 30px;
-    margin-right: 30px;
+    background-color: rgba(237,237,233,.3);
+    margin-left: 0px;
+    margin-right: 0px;
     display: block;
     text-align: center;
     margin-bottom: 0px;
@@ -381,18 +387,20 @@ nav li a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 100px;
     padding-bottom: 10px;
 }
 
 .reviews-section {
+    background-color: rgba(237,237,233,.3);
     text-align: center;
-    padding-top: 0px;
+    padding-top: 5px;
     padding-bottom: 5px;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: -3px;
 }
 
 .review-child {
@@ -459,9 +467,14 @@ nav li a:hover {
 
 
 .gallery-section {
+    background-color: rgba(237,237,233,.3);
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     text-align: center;
-    margin-top: 75px;
-    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: -10px;
 }
 
 
@@ -476,9 +489,8 @@ nav li a:hover {
 .gallery img {
     border-radius: 1%;
     width: 225px;
-    margin: 5px;
+    margin: 10px;
     padding: 0px;
-    margin-bottom: 10px;
 }
 
 
@@ -489,7 +501,7 @@ nav li a:hover {
 .contact-location-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 75px 30px 50px 30px;
+    margin: 100px 30px 50px 30px;
 }
 
 .contact-box {
@@ -504,7 +516,7 @@ nav li a:hover {
 }
 
 .location-box {
-    background:rgba(237,237,233,.8);
+    background:rgba(237,237,233,.7);
     padding: 40px;
 }
 
@@ -647,11 +659,14 @@ footer img {
 
 
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1240px) {
 
 .intro-container {
      grid-template-columns: 1fr;
-     margin: 30px 1%;
+     margin: 0px;
+     padding-top: 0px;
+     padding-bottom: 0px;
+     margin-bottom: 50px;
 }
 
 .item h1 {
@@ -660,8 +675,8 @@ footer img {
 }
 
 .salon {
-    width: 75%;
-    margin-bottom: 30px;
+    width: 60%;
+    margin-bottom: 0px;
 }
 }
 
@@ -689,6 +704,7 @@ footer img {
     margin: 0 auto;
 }
 
+
 }
 
 
@@ -704,6 +720,10 @@ footer img {
 
 @media screen and (max-width: 850px) {
 
+    .intro-container {
+        margin-bottom: 100px;
+    }
+
     .contact-location-container {
         width: 100%;
     }
@@ -714,7 +734,7 @@ footer img {
 
     .services {
         width: 75%;
-    }
+    }    
 
 }
 
