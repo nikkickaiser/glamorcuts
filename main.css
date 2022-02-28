@@ -706,6 +706,7 @@ footer img {
     grid-template-columns: 1fr;
     width: 75%;
     margin: 0 auto;
+    margin-top: 75px;
 }
 
 }
@@ -902,7 +903,7 @@ footer img {
     }
 
     .gallery img {
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
 
     .gallery {
