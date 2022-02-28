@@ -673,8 +673,10 @@ footer img {
 }
 
 .salon {
-    width: 75%;
+    width: 100%;
     margin-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 }
 
@@ -683,7 +685,7 @@ footer img {
 }
 
 .services {
-    width: 45%;
+    width: 42%;
 }
 
 .services th {
@@ -713,7 +715,13 @@ footer img {
 @media screen and (max-width: 1022px) {
 
     .review-parent {
-        padding: 10px;
+        padding: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .services {
+        width: 75%;
     }
 }
 
@@ -727,10 +735,6 @@ footer img {
 
     .contact-box {
         width: 100%
-    }
-
-    .services {
-        width: 75%;
     }
 
 }
